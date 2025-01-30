@@ -36,7 +36,7 @@ function Navbar() {
          {/* Logo section */}
          <div >
             <h1 className='font-bold text-2xl'>The Coding Journey</h1>
-            <img src='vinie.jpg' className='h-60 w-60 rounded-full border' />
+            <img src='vinie.jpg' alt='' className='h-60 w-60 rounded-full border'/>
          </div>
          {/* Menu section */}
          <div className='hidden lg:block bg-sky-300'>

@@ -1,27 +1,6 @@
 import React from 'react';
-// import Navbar from '../Navbar/Navbar';
 import { IoIosArrowRoundForward } from 'react-icons/io';
-// import { motion } from 'framer-motion'; // Unused motion import
 import Navbar from '../Navbar/Navbar';
-
-export const FadeUp = (delay: number) => {
-  return {
-    // initial: {
-    //   opacity: 0,
-    //   y: 50,
-    // },
-    // animate: {
-    //   opacity: 1,
-    //   y: 0,
-    //   transition: {
-    //     type: "spring",
-    //     stiffness: 100,
-    //     duration: 0.5,
-    //     delay: delay,
-    //   },
-    // },
-  };
-};
 
 const Hero = () => {
   return (
@@ -31,12 +10,7 @@ const Hero = () => {
         {/* Brand Info */}
         <div className='flex flex-col justify-center py-14 md:py-0 relative z-20'>
           <div className='text-center md:text-left space-y-10 lg:max-w-[400px]'>
-            <h1
-              // variants={FadeUp(0.6)}
-              // initial="initial"
-              // animate="animate"
-              className='text-3xl lg:text-5xl font-bold !leading-snug'
-            >
+            <h1 className='text-3xl lg:text-5xl font-bold !leading-snug'>
               Let&apos;s learn to build a <span className='text-secondary'>Website</span> for your business
             </h1>
             <div className='flex justify-center md:justify-start'>

@@ -23,7 +23,7 @@ function Banner() {
                 <div className='flex flex-col justify-center'>
                     <div className='text-center md:text-left space-y-12'>
                         <h1 className='text-3xl md:text-4xl font-bold !leading-snug'>
-                            The World's Leading Online Learning Platform
+                            The World&apos;s Leading Online Learning Platform
                         </h1>
                         <div className='flex flex-col gap-6'>
                             <div className='flex items-center gap-4 p-6 bg-sky-300 rounded-2xl hover:bg-white duration-300 hover:shadow-2xl'>
