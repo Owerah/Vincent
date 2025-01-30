@@ -1,25 +1,25 @@
 import React from 'react';
 // import Navbar from '../Navbar/Navbar';
 import { IoIosArrowRoundForward } from 'react-icons/io';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion'; // Unused motion import
 import Navbar from '../Navbar/Navbar';
 
 export const FadeUp = (delay: number) => {
   return {
-    initial: {
-      opacity: 0,
-      y: 50,
-    },
-    animate: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        stiffness: 100,
-        duration: 0.5,
-        delay: delay,
-      },
-    },
+    // initial: {
+    //   opacity: 0,
+    //   y: 50,
+    // },
+    // animate: {
+    //   opacity: 1,
+    //   y: 0,
+    //   transition: {
+    //     type: "spring",
+    //     stiffness: 100,
+    //     duration: 0.5,
+    //     delay: delay,
+    //   },
+    // },
   };
 };
 
@@ -37,7 +37,7 @@ const Hero = () => {
               // animate="animate"
               className='text-3xl lg:text-5xl font-bold !leading-snug'
             >
-              Let's learn to build a <span className='text-secondary'>Website</span> for your business
+              Let&apos;s learn to build a <span className='text-secondary'>Website</span> for your business
             </h1>
             <div className='flex justify-center md:justify-start'>
               <button className='primary-btn flex items-center gap-2 group'>
@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
         {/* Hero Image */}
         <div className='flex justify-center items-center'>
-          <img src='web.jpg' alt='' className='w-[400px] xl:w-[600px] relative z-10 drop-shadow' />
+          <img src='globe.svg' alt='' className='w-[250px] xl:w-[450px] relative z-10 drop-shadow' />
         </div>
       </div>
     </section>
